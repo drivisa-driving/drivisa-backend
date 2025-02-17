@@ -1,0 +1,46 @@
+{
+  "name": "ma8h7er/media-module",
+  "type": "asgard-module",
+  "description": "Media module for CodeEcho. Handles the media library.",
+  "keywords": [
+    "media",
+    "files",
+    "library",
+    "thumbnails",
+    "filters"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maher Alhamod",
+      "email": "ma8h7er@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "composer/installers": "~1.0",
+    "intervention/image": "^2.5",
+    "guzzlehttp/psr7": "^1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "orchestra/testbench": "3.8.*",
+    "league/flysystem-aws-s3-v3": "~1.0",
+    "mockery/mockery": "^0.9.5",
+    "friendsofphp/php-cs-fixer": "^2.12",
+    "doctrine/dbal": "^2.11"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Media\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.0.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

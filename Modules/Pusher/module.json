@@ -1,0 +1,13 @@
+{
+    "name": "Pusher",
+    "alias": "pusher",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pusher\\Providers\\PusherServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

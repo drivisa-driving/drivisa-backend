@@ -1,0 +1,517 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+@import "../js/scss/vue_variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// DataTables
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+@import "~datatables.net-buttons-bs4/css/buttons.bootstrap4.css";
+@import "~mdi-icons/css/materialdesignicons.min.css";
+@import "home";
+
+// google map css
+
+body {
+  overflow: hidden;
+}
+
+.router_link_active {
+  background-color: #b2d5f1;
+  color: #36c;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.al {
+  background-color: #b2d5f1 !important;
+  color: #36c !important;
+}
+
+*:not(.mdi, .pi) {
+  font-family: Montserrat, sans-serif !important;
+}
+
+.btn-outline {
+  outline: 2px solid #50e0b5 !important;
+}
+
+.py-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+.py-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+*:not(.mdi, .pi) {
+  font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+.d-container,
+.d-container-fluid,
+.d-container-lg,
+.d-container-md,
+.d-container-sm,
+.d-container-xl {
+  max-width: 84vw !important;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+@media (max-width: 576px) {
+  .d-container,
+  .d-container-sm {
+    max-width: 540px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-container,
+  .d-container-md,
+  .d-container-sm {
+    max-width: 720px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .d-container,
+  .d-container-lg,
+  .d-container-md,
+  .d-container-sm {
+    max-width: 960px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .d-container,
+  .d-container-lg,
+  .d-container-md,
+  .d-container-sm,
+  .d-container-xl {
+    max-width: 1140px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .d-container,
+  .d-container-lg,
+  .d-container-md,
+  .d-container-sm,
+  .d-container-xl .d-container-xxl {
+    max-width: 1340px !important;
+  }
+}
+
+// TODO Calender Css
+.fc .fc-toolbar-title {
+  font-size: 17px !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.fc-daygrid-day {
+  position: relative !important;
+}
+.fc-daygrid-event {
+  display: none !important;
+}
+.fc-button {
+  background-color: #3f54d1 !important;
+  color: rgba(255, 255, 255, 255) !important;
+  border: none !important;
+  opacity: 10.55 !important;
+  padding: 7px 16px !important;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.fc--button {
+  display: none !important;
+}
+
+.fc-button-primary {
+  text-transform: capitalize !important;
+}
+
+.fc-icon {
+  vertical-align: bottom !important;
+}
+
+.d-btn-blue {
+  margin: 0 0.5rem;
+  background: rgba(51, 102, 204, 0.1);
+  border-radius: 4px;
+  color: #36c;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.14),
+    0 0 0 0 rgba(0, 0, 0, 0.12);
+  padding: 5px 15px;
+  line-height: 26px;
+}
+
+.fc-prev-button:before {
+  content: "Previous";
+}
+.fc-prev-button {
+  span {
+    display: none !important;
+  }
+}
+
+.fc-next-button:before {
+  content: "Next";
+}
+.fc-next-button {
+  span {
+    display: none !important;
+  }
+}
+.fc .fc-daygrid-day-bg .fc-highlight {
+  z-index: -1 !important;
+}
+
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: rgba(40, 255, 76, 0.14) !important;
+}
+
+// TODO Calendar Css Close
+
+// instructor or student sidebar menu css
+
+.d-menu-item:hover {
+  background: #eee;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .fc-header-toolbar {
+    flex-direction: column !important;
+    box-sizing: border-box !important;
+    display: flex !important;
+    place-content: flex-start !important;
+    align-items: center !important;
+  }
+}
+
+.event {
+  width: 22px !important;
+  height: 22px !important;
+  border-radius: 50% !important;
+  line-height: 22px;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  margin-bottom: 5px !important;
+}
+
+.event * {
+  font-family: sans-serif !important;
+  text-align: center;
+  font-style: normal !important;
+}
+
+.green {
+  background: green;
+  color: white;
+}
+
+.blue {
+  background: #3366cc;
+  color: white;
+}
+
+.red {
+  background: #f2235b;
+  color: white;
+}
+
+.light-blue {
+  background: #15cdcb;
+  color: white;
+}
+
+// status colors
+.available-bg {
+  background: #1bc5bd !important;
+  color: white !important;
+}
+
+// status changes colors
+
+.reserved-status {
+  outline: 1px solid $primary;
+
+  .time {
+    background-color: $primary;
+    color: white;
+  }
+
+  .details,
+  .timeline_info {
+    background-color: $primary-light;
+  }
+}
+
+.canceled-status {
+  outline: 1px solid $danger;
+
+  .time {
+    background-color: $danger;
+    color: white;
+  }
+
+  .details,
+  .timeline_info {
+    background-color: $danger-light;
+  }
+}
+
+.completed-status {
+  outline: 1px solid $green;
+
+  .time {
+    background-color: $green;
+    color: white;
+  }
+
+  .details,
+  .timeline_info {
+    background-color: $green-light;
+  }
+}
+
+.available-status {
+  outline: 1px solid $accent;
+
+  .time {
+    background-color: $accent;
+    color: white;
+  }
+
+  .details,
+  .timeline_info {
+    background-color: $accent-light;
+  }
+}
+
+.progress-status {
+  outline: 1px solid $progress-dark;
+
+  .time {
+    background-color: $progress-dark;
+    color: black;
+  }
+
+  .details,
+  .timeline_info {
+    background-color: $progress;
+  }
+}
+
+.available-status-style::before {
+  content: "\25CF";
+  color: $accent;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.completed-status-style::before {
+  content: "\25CF";
+  color: $green;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.reserved-status-style::before {
+  content: "\25CF";
+  color: $primary;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.canceled-status-style::before {
+  content: "\25CF";
+  color: $danger;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.total-status-style::before {
+  content: "\25CF";
+  color: #3e464c;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.total-badge {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fafafa;
+  background: $light-dark;
+  border-radius: 50px;
+  left: 0;
+  margin-left: 4px !important;
+  top: 23px;
+  position: absolute;
+}
+.bottom-fix {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  display: flex;
+  color: #fff;
+}
+.reserved-badge {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fafafa;
+  background: #3f54d1;
+  border-radius: 50px;
+}
+
+.completed-badge {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fafafa;
+  background: #4caf50ff;
+  border-radius: 50px;
+}
+
+.available-badge {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fafafa;
+  background: #15cdcb;
+  border-radius: 50px;
+}
+
+.canceled-badge {
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  color: #fafafa;
+  background: #f2235bff;
+  border-radius: 50px;
+}
+
+.vue-map {
+  border-radius: 15px;
+}
+
+.gm-ui-hover-effect {
+  display: none !important;
+}
+
+.chat-header {
+  border: 1px solid #d1ebff;
+  border-bottom: 0;
+  text-align: center;
+  max-width: 450px;
+  margin: 0 auto;
+  color: #426aba !important;
+  background-color: #d1ebff !important;
+}
+.chat-header p {
+  padding: 10px;
+  margin-bottom: 0 !important;
+}
+.chat-area {
+  border: 1px solid #d1ebff;
+  background: white;
+  height: 60vh;
+  padding: 1em;
+  overflow: auto;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.message {
+  width: 45%;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+.message-out {
+  border-radius: 15px 0px 15px 15px;
+  background: #406ad4;
+  padding-right: 10px;
+  color: white;
+  margin-left: 55%;
+}
+.message-out-date {
+  margin-left: 55%;
+  font-size: 0.8rem;
+  text-align: right;
+}
+.message-in {
+  border-radius: 0px 15px 15px 15px;
+  background: #f1f0f0;
+  color: black;
+}
+.message-in-date {
+  font-size: 0.8rem;
+}
+
+/* width */
+.chat-area::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.chat-area::-webkit-scrollbar-thumb {
+  background: #cccccc;
+  border-radius: 10px;
+}
+
+.reserved {
+  background-color: $primary !important;
+}
+
+.expired {
+  color: #fafafa !important;
+  background-color: #f67b98 !important;
+}
+
+.completed {
+  background-color: #4fe0b5 !important;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 10px 16px;
+
+  .page-heading {
+    font-size: 25px !important;
+    font-weight: 600 !important;
+    margin-bottom: 0 !important;
+    //text-transform: uppercase;
+  }
+}
+
+.hidden {
+  display: none !important;
+}

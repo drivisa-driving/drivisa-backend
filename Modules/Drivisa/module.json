@@ -1,0 +1,17 @@
+{
+  "name": "Drivisa",
+  "alias": "drivisa",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "priority": 1,
+  "providers": [
+    "Modules\\Drivisa\\Providers\\DrivisaServiceProvider",
+    "Modules\\Drivisa\\Providers\\EventServiceProvider",
+    "Modules\\Drivisa\\Providers\\RouteServiceProvider",
+    "Modules\\Drivisa\\Providers\\PackageServiceProvider"
+  ],
+  "aliases": {},
+  "files": [],
+  "requires": []
+}

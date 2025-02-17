@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ca.codepaper.drivisa_app_v1",
+            "sha256_cert_fingerprints": [
+                "68:7A:24:BF:7C:00:7B:C7:FF:D7:C5:68:5D:19:1A:49:31:7A:D0:63:A3:8C:53:A9:4A:53:34:BC:0D:5B:91:02"
+            ]
+        }
+    }
+]

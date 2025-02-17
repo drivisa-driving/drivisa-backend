@@ -1,0 +1,11 @@
+{
+    "Core": true,
+    "Media": true,
+    "Translation": true,
+    "User": true,
+    "Workshop": true,
+    "DrivisaModule": true,
+    "Drivisa": true,
+    "Setting": true,
+    "Pusher": true
+}

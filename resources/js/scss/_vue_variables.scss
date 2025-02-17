@@ -1,0 +1,25 @@
+$page-bg: #EEF0F8 !default; // Page Background Color
+$primary: #3366CC;
+$primary-light: rgba(51, 102, 204, 0.1);
+$header-bg: rgba(232, 241, 255, 0.3);
+$active: #1BC5BD;
+$secondary: #1C252C;
+$light-dark: #3E464C;
+$danger: #F2235B;
+$danger-light: #FEE9EF;
+$accent: #15CDCB;
+$accent-light: #E8FAFA;
+$light-gray: #F5F8FA;
+$green: #4CAF50;
+$green-light: #e5fae6;
+$progress: #fcfcfc;
+$progress-dark: #eee;
+$footer: #14151e;
+
+
+// @overrides
+
+$container-max-widths: (
+        'lg': 84vw,
+        'xl': 84vw
+);

@@ -1,0 +1,110 @@
+<template>
+  <div>
+    <MasterInstructorLayout>
+      <v-card elevation="0" class="border">
+        <div class="px-3 my-3">
+          <h3 class="font-weight-bold text-dark mb-4"> Create Training Location </h3>
+        </div>
+        <v-card-text>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <v-text-field
+                    v-model="requestData.source_name"
+                    outlined
+                    label="Training Point Identical Name"
+                    required
+                ></v-text-field>
+
+              </div>
+              <div class="col-md-12">
+                <vue-google-autocomplete
+                    ref="source_location"
+                    id="source_location"
+                    classname="form-control mb-3"
+                    style="height: 56px"
+                    placeholder="Training Point Address"
+                    @placechanged="getAddressData"
+                    country="CA"
+                >
+                </vue-google-autocomplete>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-start">
+                  <v-btn class="primary" :disabled="requestData.source_name === ''" @click="saveLocation">
+                    Save Changes
+                  </v-btn>
+                </div>
+              </div>
+            </div>
+          </div>
+        </v-card-text>
+      </v-card>
+    </MasterInstructorLayout>
+  </div>
+</template>
+
+<script>
+import MasterInstructorLayout from "../Layouts/MasterInstructorLayout";
+import AddLocationMap from "../../../components/Instructor/Map/AddLocationMap";
+import VueGoogleAutocomplete from 'vue-google-autocomplete'
+
+export default {
+  name: "TrainingLocationAdd",
+  components: {MasterInstructorLayout, AddLocationMap, VueGoogleAutocomplete},
+  data() {
+    return {
+      requestData: {
+        source_name: "",
+        source_address: "",
+        source_latitude: "",
+        source_longitude: "",
+        destination_name: "",
+        destination_address: "",
+        destination_latitude: "",
+        destination_longitude: "",
+      }
+    }
+  },
+  methods: {
+    getAddressData(addressData, placeResultData, id) {
+      this.requestData.source_latitude = addressData.latitude;
+      this.requestData.source_longitude = addressData.longitude;
+      this.requestData.source_address = placeResultData.formatted_address;
+
+      // destination address duplicate for now || as per discussion with uday patel
+      this.requestData.destination_latitude = addressData.latitude;
+      this.requestData.destination_longitude = addressData.longitude;
+      this.requestData.destination_address = placeResultData.formatted_address;
+    },
+    async saveLocation() {
+      try {
+        const url = "/v1/drivisa/instructors/points/set-point";
+        const {data} = await axios.post(url, this.requestData);
+        this.$toasted.success(data.message)
+        await this.$router.push("/instructor/training-locations");
+      } catch (e) {
+        this.$root.handleErrorToast(e, "Unable to Save Location")
+      }
+    }
+  }
+}
+</script>
+
+<style scoped lang="scss">
+.location-info {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+}
+</style>

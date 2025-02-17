@@ -1,0 +1,20 @@
+parameters:
+    paths:
+        - app
+        - Modules
+    level: 0
+    inferPrivatePropertyTypeFromConstructor: true
+    checkMissingIterableValueType: false
+    excludePaths:
+        - %currentWorkingDirectory%/app/Providers/*
+        - %currentWorkingDirectory%/Modules/Setting/*
+        - %currentWorkingDirectory%/Modules/Workshop/*
+        - %currentWorkingDirectory%/Modules/Media/*
+        - %currentWorkingDirectory%/Modules/Translation/*
+        - %currentWorkingDirectory%/Modules/*/app/Providers/*
+        - %currentWorkingDirectory%/Modules/*/app/Http/Middleware/*
+        - %currentWorkingDirectory%/Modules/*/Tests/*
+    ignoreErrors:
+        - '#(.*) should return string but return statement is missing#'
+        - '#Call to static method (.*) on an unknown class Schema#'
+        - '#Unsafe usage of new static#'

@@ -1,0 +1,405 @@
+{
+  "title": {
+    "home_heading_title": "helps you to be a qualified driver",
+    "home_subheading_title": "Find your instructor and start training",
+    "search_your_instructor": "Search for your <span>instructor</span>",
+    "signup_instructor_account": "Signup for new instructor account",
+    "check_email_activate": "We have sent you an activation email. Please check your email inbox in order to complete the activation process.",
+    "enter_credentials": "Please enter you credentials to log into your account",
+    "change_password": "Change Password",
+    "reset_password": "Enter your email address that you used to register. We'll send you an email with reset code."
+  },
+  "button": {
+    "register": "Register",
+    "signup": "Signup",
+    "activate": "Activate",
+    "dismiss": "Dismiss",
+    "login": "Login",
+    "logout": "Logout",
+    "my_profile": "My profile",
+    "my_account": "My account",
+    "activate_account": "Activate your account",
+    "confirm": "Confirm",
+    "send": "Send",
+    "booking": "Booking",
+    "reset_password": "Reset Password",
+    "resend_verification_email": "Resend verification email",
+    "previous": "Previous",
+    "today": "Today",
+    "next": "Next",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "search": "Search",
+    "save_changes": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "label": {
+    "phone_number": "Phone Number",
+    "email_address": "Email address",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "address": "Address",
+    "name": "Name",
+    "city": "City",
+    "province": "Province",
+    "postal_code": "Postal Code",
+    "bio": "Biography",
+    "general_information": "General information",
+    "media": "Media",
+    "calendar": "Calendar",
+    "Location_details": "Location's Details",
+    "fill_out_your_credit_card": "Fill out your Credit card",
+    "pick_up": "Pick up",
+    "drop_off": "Drop off",
+    "from": "From",
+    "to": "To",
+    "status": "Status",
+    "price": "Price",
+    "login_history": "Login History"
+  },
+  "form": {
+    "city_zip": "City / Zip code",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "password": "Password",
+    "password_confirmation": "Password confirmation",
+    "agree_with": "I agree with Drivisa",
+    "terms_conditions": "Terms & Conditions",
+    "privacy_policy": "Privacy policy",
+    "i_have_account": "I already have an account",
+    "activation_code": "Activation code",
+    "dont_have_account": "Don't have an account ?",
+    "forgot_password": "I forgot my password",
+    "new_password": "New Password",
+    "old_password": "Old Password",
+    "reset_code": "Reset code.",
+    "hint": {
+      "choose_strong_pass": "Choose a strong password",
+      "retype_password": "Retype your password"
+    },
+    "validation": {
+      "field_required": "This field is required",
+      "field_min_chars": "This field should contains minimum {{count}} characters",
+      "field_max_chars": "This field should contains maximum {{count}} characters",
+      "field_email": "Please enter a valid email address!",
+      "password_must_match": "Password & Password confirmation must be match"
+    }
+  },
+  "helpers": {
+    "and": "and"
+  },
+  "messages": {
+    "general_error": "Something went wrong!",
+    "schedule_created_successfully": "Schedule was created successfully!",
+    "no_lessons": "There are no lessons",
+    "completed_successfully": "completed successfully"
+  },
+  "pages": {
+    "home": {
+      "hero_title": "Find all you need to become a qualified driver",
+      "hero_description": "Everything you need to find a driving training place will be here, as it will be easier for you",
+      "search_placeholder": "Search for the location or instructor",
+      "take_lesson_wherever": "Take your lesson wherever you want"
+    },
+    "auth": {
+      "login": {
+        "paragraph": "Welcome Back",
+        "header": "Log Into Your Account",
+        "hide_password": "Hide password"
+      },
+      "register": {
+        "header": "Register New Account",
+        "hide_password": "Hide password"
+      },
+      "account-type": {
+        "select_type_of_your_account": "Select Type Of Your Account",
+        "student_account": "Student account",
+        "instructor_account": "Instructor account"
+      },
+      "activate": {
+        "activate_your_account": "Activate your account",
+        "code": "Code",
+        "activate": "Activate",
+        "resend_activation_code": "Resend activation code"
+      },
+      "resend-activation-code": {
+        "resend_your_activation_code": "Resend your activation code",
+        "resend": "Resend"
+      },
+      "reset-password": {
+        "reset_your_password": "Reset your password",
+        "reset": "Reset"
+      },
+      "complete-reset-password": {
+        "complete_reset_password": "Complete reset password",
+        "reset": "Reset",
+        "code": "Code"
+      }
+    },
+    "instructor": {
+      "my-account": {
+        "header": "Account",
+        "general-info": {
+          "link":"Edit profile",
+          "header": "General Information",
+          "upload": "Upload",
+          "remove": "Remove",
+          "edit_cover_photo": "Edit photo",
+          "change_photo": "Change photo",
+          "delete_photo": "Delete photo",
+          "languages": "Languages",
+          "add_language": "Add language",
+          "upload_your_vehicle_photo":"Upload your vehicle photo"
+          
+        },
+        "security": {
+          "header": "Security"
+        },
+        "settings": {
+          "header": "Settings"
+        },
+        "bank-account": {
+          "header": "Bank account",
+          "account_information": "Account Information",
+          "delete_account": "Delete Account",
+          "save_changes": "Save Changes",
+          "update_account": "Update Account",
+          "email": "Email",
+          "first_name": "first Name",
+          "last_name": "Last Name",
+          "id_number": "Id Number",
+          "phone": "Phone",
+          "country": "Country",
+          "city": "City",
+          "line_1": "Line 1",
+          "address":"Address",
+          "postal_code": "Postal Code",
+          "state": "State",
+          "birth_day": "Date of birth",
+          "bank_country": "Bank Country",
+          "bank_currency": "Bank Currency",
+          "bank_routing_number": "Bank Routing Number",
+          "bank_account_number": "Bank Account Number",
+          "bank_account_holder_name": "Bank Account Holder Name",
+          "institutionNumber": "Institution Number",
+          "transitNumber": "Transit Number",
+          "bank_account_holder_type": "Bank Account Holder Type",
+          "not_verified": "You can't create bank account until your account be verified"
+        },
+        "documents": {
+          "documents": "Documents",
+          "driver_license": "Driver’s License",
+          "vehicle_insurance_policy": "Vehicle Insurance Policy",
+          "vehicle_registration": "Vehicle Registration"
+        }
+      },
+      "my-profile": {
+        "profile-info": {
+          "header": "Profile",
+          "edit_profile": "Edit Profile",
+          "trainee": "Trainee",
+          "training_hours": "Training Hours",
+          "lessons": "Lessons",
+          "see_all": "See All"
+        },
+        "recent-lessons": {
+          "header": "Today lessons"
+        },
+        "calender": {
+          "header": "Calender",
+          "not_verified": "You can't show your calendar until your account be verified"
+        },
+        "upcoming-lessons": {
+          "header": "Training history",
+          "filter": "Filter",
+          "from": "From",
+          "to": "To",
+          "details": "Details",
+          "cancel": "cancel"
+        },
+        "training-Locations": {
+          "header": "Training Locations",
+          "source_address": "Source Address",
+          "source_name": "Source Name",
+          "destination_address": "Destination Address",
+          "destination_name": "Destination Name",
+          "create_Location": "Create Location",
+          "edit": "Edit",
+          "delete": "Delete",
+          "no_Locations": "There are no Locations",
+          "active": "Active",
+          "inactive": "Inactive",
+          "activate": "activate",
+          "deactivate": "deactivate",
+          "toggle_status": "Toggle status",
+          "message_toggle_status": "Are you sure toggle Location's status to {{status}}",
+          "delete_Location": "Delete Location",
+          "message_delete_Location": "Are you sure delete Location"
+        },
+        "create-Location": {
+          "create_Location": "Create Location",
+          "edit_Location": "Edit Location",
+          "Location_coordinates": "Location Coordinates",
+          "source_Location": "Source Location",
+          "destination_Location": "Destination Location"
+        },
+        "time-line": {
+          "header": "back to calendar",
+          "copy_schedule": "Copy Schedule",
+          "add_time": "Add Time",
+          "update_time": "Update Time",
+          "available": "Available",
+          "reserved": "Reserved",
+          "canceled": "Canceled",
+          "completed": "Completed",
+          "from": "From",
+          "to": "To",
+          "Locations": "Locations",
+          "close": "Close",
+          "hour": "Hour",
+          "hours": "Hours",
+          "edit": "Edit",
+          "delete": "Delete",
+          "exclude_days": "Exclude days",
+          "delete_working_hour": "Delete workingHour",
+          "message_delete_working_hour": "Are you sure delete workingHour",
+          "copy": "Copy"
+        },
+        "cars": {
+          "cars": "Cars",
+          "make": "Make",
+          "model": "Model",
+          "year": "Year",
+          "trim": "Trim",
+          "training_cars": "Training car",
+          "no_training_cars": "There are not training cars",
+          "add_car": "Add car",
+          "edit_car": "Edit car",
+          "edit": "Edit",
+          "delete": "Delete",
+          "delete_car": "Delete car",
+          "message_delete_car": "Are you sure delete car"
+        },
+        "earnings":{
+          "header":"Earnings",
+          "link":"Earnings"
+        }
+      },
+      "profile": {
+        "booking-lesson": {
+          "booking_details": "Booking Details",
+          "source_Location": "Source Location",
+          "destination_Location": "Destination Location",
+          "payment_details": "Payment Details",
+          "card_holder_name": "Card holder Name",
+          "address": "Address",
+          "state": "State",
+          "zip": "Zip",
+          "card_number": "Card Number",
+          "expiry_date": "Expiry Date",
+          "cvv": "CVV",
+          "payments_are_secured_and_encrypted": "Payments are secured and encrypted",
+          "pay": "Pay",
+          "booking_now": "Booking now",
+          "available": "Available"
+        },
+        "profile-details": {
+          "profile": "Profile",
+          "trainee": "Trainee",
+          "training_hours": "Training Hours",
+          "training_lessons": "Training Lessons",
+          "calendar": "Calendar",
+          "booking": "Booking",
+          "time_range": "Time Range",
+          "status": "Status",
+          "location": "Location"
+        }
+      }
+    },
+    "trainee": {
+      "general_Information": "General Information",
+      "security": "Security",
+      "settings": "Settings",
+      "documents": "Documents",
+      "my-account": {
+        "header": "Account",
+        "general-info": {
+          "header": "General Information",
+          "upload": "Upload",
+          "remove": "Remove"
+        },
+        "security": {
+          "header": "Security"
+        },
+        "settings": {
+          "header": "Settings"
+        }
+      },
+      "my-profile": {
+        "profile-info": {
+          "header": "Profile",
+          "edit_profile": "Edit Profile",
+          "instructor": "Instructor",
+          "training_hours": "Training Hours",
+          "lessons": "Lessons",
+          "see_all": "See All"
+        },
+        "recent-lessons": {
+          "header": "Today lessons"
+        },
+        "upcoming-lessons": {
+          "header": "Training history",
+          "filter": "Filter",
+          "from": "From",
+          "to": "To",
+          "details": "Details",
+          "cancel": "cancel"
+        }
+      }
+    },
+    "search": {
+      "search": "Search",
+      "search_by_name_address": "search by name , address, post code, state",
+      "choose_a_date": "Choose a date",
+      "car_maker": "Car maker",
+      "language": "Language",
+      "search_by_date": "Search by date",
+      "filter": "Filter",
+      "not_provided": "Not provided"
+    }
+  },
+  "days": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "provinces": {
+    "alberta": "Alberta",
+    "british_columbia": "British Columbia",
+    "manitoba": "Manitoba",
+    "new_brunswick": "New Brunswick",
+    "newfoundland_and_labrador": "Newfoundland and Labrador",
+    "northwest_territories": "Northwest Territories",
+    "nova_scotia": "Nova Scotia",
+    "nunavut": "Nunavut",
+    "ontario": "Ontario",
+    "prince_edward_island": "Prince Edward Island",
+    "quebec": "Quebec",
+    "saskatchewan": "Saskatchewan",
+    "yukon": "Yukon"
+  },
+  "verified-account": {
+    "your_account_not_published": "Your account not published yet! please upload your certificates.",
+    "upload_now": "upload now"
+  },
+  "confirm-dialog": {
+    "yes": "Yes",
+    "no": "No"
+  }
+}

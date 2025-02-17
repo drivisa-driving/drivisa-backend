@@ -1,0 +1,38 @@
+<svg width="100" height="98.34" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 1">
+ <defs>
+  <clipPath id="clip-path">
+   <path clip-rule="evenodd" fill="none" d="m15.17,2.94l33.83,0a46.23,46.23 0 0 1 0,92.46l-33.83,0a12.44,12.44 0 0 1 -12.41,-12.4l0,-67.65a12.44,12.44 0 0 1 12.41,-12.41" class="cls-4" id="SVGID"/>
+  </clipPath>
+  <mask maskUnits="userSpaceOnUse" height="37.18" width="89.38" y="58.22" x="2.76" id="mask">
+   <rect id="svg_1" fill="url(#linear-gradient)" height="37.18" width="89.38" y="58.22" x="2.76" class="cls-1"/>
+  </mask>
+  <mask maskUnits="userSpaceOnUse" height="69.44" width="87.38" y="2.94" x="2.76" id="mask-2">
+   <rect id="svg_2" fill="url(#linear-gradient-2)" height="69.44" width="87.38" y="2.94" x="2.76" class="cls-2"/>
+  </mask>
+  <mask maskUnits="userSpaceOnUse" height="60.04" width="92.46" y="2.94" x="2.76" id="mask-3">
+   <rect id="svg_3" fill="url(#linear-gradient-3)" height="60.04" width="92.46" y="2.94" x="2.76" class="cls-3"/>
+  </mask>
+  <linearGradient y2="0.93948" x2="0.46856" y1="-9.2539" x1="1.19781" id="linear-gradient">
+   <stop stop-color="#fff" offset="0"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient xlink:href="#linear-gradient" gradientTransform="translate(125.33 -188.57)" y2="201.37" x2="-92.11" y1="598.02" x1="118.96" id="linear-gradient-2"/>
+  <linearGradient xlink:href="#linear-gradient" gradientTransform="translate(125.33 -202.28)" y2="198.17" x2="-57.18" y1="680.66" x1="-306.59" id="linear-gradient-3"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_23" clip-path="url(#clip-path)" class="cls-6">
+   <rect id="svg_24" fill="#3f54d1" height="92.46" width="92.46" y="2.94" x="2.76" class="cls-7"/>
+  </g>
+  <g id="svg_25" mask="url(#mask)" class="cls-8">
+   <path id="svg_26" fill-rule="evenodd" fill="#15cdcb" d="m92.14,65.71a46.4,46.4 0 0 1 -43.14,29.69l-33.83,0a12.44,12.44 0 0 1 -12.41,-12.4l0,-24.78c32.34,13.89 65,12.38 89.38,7.49" class="cls-9"/>
+  </g>
+  <g id="svg_27" mask="url(#mask-2)" class="cls-10">
+   <path id="svg_28" fill-rule="evenodd" fill="#15cdcb" d="m15.17,2.94l33.83,0a46.34,46.34 0 0 1 41.13,25.21c-27.06,2.68 -64.13,12.53 -87.37,44.23l0,-57a12.44,12.44 0 0 1 12.41,-12.44" class="cls-9"/>
+  </g>
+  <g id="svg_29" mask="url(#mask-3)" class="cls-11">
+   <path id="svg_30" fill="#5280e2" fill-rule="evenodd" d="m15.17,2.94l33.83,0a46.36,46.36 0 0 1 46.22,46.23a45.69,45.69 0 0 1 -2.12,13.83c-25.29,-36.23 -71.59,-41.93 -90.34,-42.71l0,-4.94a12.44,12.44 0 0 1 12.41,-12.41" class="cls-12"/>
+  </g>
+  <path id="svg_31" fill="#4fe0b5" d="m90,18.15a242.72,242.72 0 0 0 -34.72,31.52c-15.47,16.94 -23.81,30.52 -23.81,30.52a123.58,123.58 0 0 0 -7.33,-14.93c-10.14,-17.54 -21.39,-27.53 -21.39,-27.53c17.83,1.79 29.67,15 29.67,15c20.07,-18.31 57.33,-34.45 57.58,-34.58z" class="cls-13"/>
+ </g>
+</svg>

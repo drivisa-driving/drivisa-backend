@@ -1,0 +1,23 @@
+{
+    "name": "ma8h7er/setting",
+    "description": "",
+    "authors": [
+        {
+            "name": "Maher Alhamod",
+            "email": "ma8h7er@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Setting\\": ""
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ma8h7er/drivisa",
+  "description": "",
+  "type": "asgard-module",
+  "license": "MIT",
+  "require": {
+    "php": "^7.1.3",
+    "composer/installers": "~1.0",
+    "ma8h7er/core-module": "4.0.x-dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "orchestra/testbench": "3.8.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Modules\\Drivisa\\": ".",
+      "Modules\\": "Modules/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Maher Alhamod",
+      "email": "ma8h7er@gmail.com"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [],
+      "aliases": {
+      }
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Modules\\Drivisa\\": ""
+    }
+  }
+}
