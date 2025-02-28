@@ -59,6 +59,11 @@ class SentinelAuthentication implements Authentication
             $newUser->save();
         }
 
+        if (isset($user['hear_from'])) {
+            $newUser->from_hear = $user['hear_from'];
+            $newUser->save();
+        }
+
         return $newUser;
     }
 

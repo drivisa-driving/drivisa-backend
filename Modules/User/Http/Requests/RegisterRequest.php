@@ -22,7 +22,8 @@ class RegisterRequest extends FormRequest
             'email' => 'required|email|unique:users',
             'password' => 'required|confirmed|min:6|max:255',
             'refer_code' => 'numeric|nullable',
-            'from_hear' => 'nullable'
+            'from_hear' => 'nullable',
+            'hear_from' => 'nullable'
         ];
     }
 
